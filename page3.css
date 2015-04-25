@@ -1,0 +1,12 @@
+div {
+	margin: 50px;
+	padding: 10px;
+}
+
+#footer {
+	border: 5px solid green;
+}
+
+p {
+	border: 3px solid yellow;
+}

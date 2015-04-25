@@ -1,0 +1,21 @@
+<?php
+	$num=7;
+	echo("<hr />$num");
+	$num++;
+	echo("<hr />$num");	
+	$num--;
+	echo("<hr />$num");	
+	$num++;
+	echo("<hr />$num");	
+	$num+=7;
+	echo("<hr />$num");	
+	$num-=5;
+	echo("<hr />$num");
+	$x=3*42;
+	echo("<hr />$x");
+	$num*=$x;
+	echo("<hr />$num");
+	$rt=$x*3;
+	echo("<hr />$rt");
+	var_dump(5*5);
+	echo(pow(5,3));
