@@ -13,7 +13,7 @@
 
 <body>
 	<div id="header">
-		<p>This is a test header.. look at how this is...</p>
+		<p>This is a test header. look at how this is.</p>
 	</div>
 	<div id="content">
 		<form action="page2" method="get"> 
