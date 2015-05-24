@@ -1,0 +1,93 @@
+    1  cd ~
+    2  cd .ssh
+    3  ls
+    4  vim authorized_keys 
+    5  cp ~ec2-user/.ssh/authorized_keys ./
+    6  chmod 600 *
+    7  cd ~/.ssh
+    8  chmod 600 *
+    9  ll
+   10  cat authorized_keys 
+   11  cd /etc
+   12  ll
+   13  cd ssh
+   14  ll
+   15  vim sshd_config 
+   16  service sshd restart
+   17  exit
+   18  sudo yum update
+   19  yum install httpd24
+   20  sudo yum update
+   21  yum list | grep php
+   22  yum install php56 php56-mbstring php56-mysqlnd php56-mcrypt
+   23  yum list | grep mysql
+   24  yum install mysql55-server
+   25  ls
+   26  vim .bashrc
+   27  ls
+   28  cat .ssh/authorized_keys 
+   29  chkconfig
+   30  chkconfig httpd on
+   31  chkconfig mysqld on
+   32  restart
+   33  restart --help
+   34  restart -n
+   35  restart -n --system
+   36  restart --system
+   37  reboot
+   38  cat .ssh
+   39  cat .ssh/authorized_keys 
+   40  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGgd49WdNRC+BWEO3MvWXxdwbl1/jpYgHoBeRzQuT9FpHLhoTYetiJ5JuJEutUcXsTTZT6G15UWk/yEHEf2eFTnwj6wUIqRUc3ypGsAwRGy0o+mjFGW8NqNZliQtAjB0Q3GECqpbeOZcxPJnuFFFRDKSgFVqPGwZze7Sa3gdZG/I01CnsaLDoaIlYrDVo2kyn02KmBOy8Np9cIz/8o3c8lkeGzDsQ/MjV7+lofWOdGaRv7VD33Ut6stI8UlvwKz3hjl7Zd0VItT6GHPyafKdjKN6zDylM21YgtgADT3EnQJSacODOl0NIpNwBkiwgrnVvFS2XTOVH/leCSEOnXYUxz DEV-EC2
+   41  cd .ssh
+   42  ls
+   43  vim id_rsa
+   44  ls
+   45  chmod 600 *
+   46  ssh -T git@github.com
+   47  w
+   48  ls
+   49  eho blah
+   50  echo blah
+   51  echo blah > index.html
+   52  ls
+   53  git clone git@github.com:dav8/www.git
+   54  yum install git
+   55  git clone git@github.com:dav8/www.git
+   56  ls
+   57  cd www/
+   58  ls
+   59  cat index
+   60  cat index.php 
+   61  ls
+   62  ll
+   63  cat style.css 
+   64  ls
+   65  vim .htaccess
+   66  cd /etc
+   67  cd httpd/
+   68  ls
+   69  ll
+   70  cd conf
+   71  ll
+   72  vim httpd.conf 
+   73  srh
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd ..
+   78  w
+   79  ls
+   80  cd www/
+   81  ls
+   82  cat quizanswer2.php 
+   83  gitpull
+   84  vim index.php
+   85  git status
+   86  git add .htaccess 
+   87  git status
+   88  git add index.php 
+   89  git status
+   90  gits
+   91  git commit -m "updated header and added .htaccess"
+   92  git push origin master
+   93  history > history.txt
