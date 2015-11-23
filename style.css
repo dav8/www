@@ -22,10 +22,15 @@ form1-top {
 }
 
 p {
-	font-size: 14px;
+	font-size: 22px;
 	margin: auto;
 	text-decoration: underline;
     padding: 10px;
+}
+h1 {
+    font-size: 12px;
+    padding: 10px;
+
 }
 
 #header {
