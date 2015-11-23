@@ -15,16 +15,17 @@ a img {
 	border: none;
 }
 div {
-	border: 5px solid blue;
 	margin: auto;
-	padding: 10px;
-
 }
+form1-top {
+    font-size: 4px;
+}
+
 p {
-	font-size: 20px;
-	padding: 0;
+	font-size: 14px;
 	margin: auto;
 	text-decoration: underline;
+    padding: 10px;
 }
 
 #header {

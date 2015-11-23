@@ -13,8 +13,11 @@
 
 <body>
 	<div id="header">
-		<p>This is a test header.</p>
+		<h1>This is a test header.</h1>
 	</div>
+        <div id="form1-top">
+            <p>Username</p>
+        </div>
 	<div id="user-button">
 		<form action="page2" method="get"> 
 			<input type="text" name="username" id="username" > 
