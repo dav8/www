@@ -15,7 +15,7 @@
 	<div id="header">
 		<p>This is a test header.</p>
 	</div>
-	<div id="content">
+	<div id="user-button">
 		<form action="page2" method="get"> 
 			<input type="text" name="username" id="username" > 
 			<button> submit </button>
